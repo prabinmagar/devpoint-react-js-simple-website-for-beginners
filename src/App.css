@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.container{
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section__padding{
+  padding: 10rem 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
+}
+.flex__center{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.grid{
+  display: grid;
 }
 
-.App-link {
-  color: #61dafb;
+/* section */
+.section__title{
+  margin-bottom: 4rem;
+  color: var(--black-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 4rem;
+}
+.section__padding{
+  padding: 10rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* texts and paras */
+.para__text{
+  line-height: 1.7;
+  font-weight: 300;
+  opacity: 0.95;
+  letter-spacing: 1px;
+}
+.text__center{
+  text-align: center;
+}
+.text__upper{
+  text-transform: uppercase;
+}
+.text__cap{
+  text-transform: capitalize;
+}
+.text__blue{
+  color: var(--robin-blue-color);
+}
+.text__dark{
+  color: var(--black-color);
+}
+.text__light{
+  color: var(--white-color)!important;
+}
+.text__grey{
+  color: var(--grey-color);
+}
+
+/* fonts */
+.fw__2{font-weight: 200;}
+.fw__2{font-weight: 300;}
+.fw__2{font-weight: 400;}
+.fw__2{font-weight: 500;}
+.fw__2{font-weight: 600;}
+.fw__2{font-weight: 700;}
+.fw__2{font-weight: 800;}
+
+/* bgs and colors */
+.bg__blue{
+  background-color: var(--robin-blue-color);
+}
+.bg__dark{
+  background-color: var(--black-color);
+}
+.bg__light{
+  background-color: var(--white-color);
+}
+.bg__whitesmoke{
+  background-color: var(--whitesmoke-color);
+}
+.bg__grey{
+  background-color: var(--grey-color);
+}
+
+/* btns */
+.btn{
+  display: inline-block;
+  min-height: 54px;
+  line-height: 54px;
+  padding: 0 4.7rem;
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+.btn__blue{
+  background-color: var(--robin-blue-color);
+}
+.btn__blue:hover{
+  background-color: #0fb9b4;
+}
+
+/* letter spacing */
+.ls__1{
+  letter-spacing: 1px;
+}
+.ls__2{
+  letter-spacing: 2px;
 }

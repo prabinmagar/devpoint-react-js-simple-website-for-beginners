@@ -1,0 +1,27 @@
+.skills__item--title{
+    margin-bottom: 2rem;
+    display: block;
+}
+.skills__item--progressbar{
+    height: 4px;
+    width: 100%;
+    position: relative;
+    background-color: #d8d8d8;
+    margin-bottom: 4rem;
+}
+.skills__item--progressbar div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--robin-blue-color);
+}
+.skills__item{
+    max-width: 600px;
+}
+
+@media screen and (min-width: 992px){
+    .skills__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

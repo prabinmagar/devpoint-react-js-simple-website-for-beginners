@@ -1,0 +1,12 @@
+.slick-dots li button::before{
+    font-size: 15px!important;
+    color: #fff!important;
+}
+.testimonials__item{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.testimonials__item .text{
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}

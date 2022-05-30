@@ -1,0 +1,37 @@
+.services__content{
+    gap: 4rem;
+}
+.services__content--item{
+    padding: 2rem;
+}
+.services__content--item .icon{
+    width: 60px;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+.services__content--item .text{
+    margin: 2rem 0;
+    opacity: 0.8;
+}
+.services__content--item .para__text{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+    .services__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .services__content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .services__content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

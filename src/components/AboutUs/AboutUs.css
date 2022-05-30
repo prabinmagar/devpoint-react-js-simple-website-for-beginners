@@ -1,0 +1,8 @@
+.about__content img{
+    margin: 4rem auto 0 auto;
+    width: 260px;
+}
+.about__content p.para__text{
+    max-width: 890px;
+    margin: 0 auto;
+}

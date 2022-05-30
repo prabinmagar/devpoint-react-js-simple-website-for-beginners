@@ -1,0 +1,36 @@
+.stats__content{
+    gap: 6rem;
+}
+.stats__item--left .img{
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.stats__item--right .value{
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+
+@media screen and (min-width: 768px){
+    .stats__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .stats__content{
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+    }
+    .stats__item{
+        text-align: left;
+        align-items: center;
+        display: flex;
+    }
+    .stats__item .img{
+        margin-bottom: 0;
+        margin-right: 2rem;
+        width: 40px;
+    }
+}
